@@ -2,8 +2,10 @@ Endpoints
 
 GET - http://127.0.0.1:5000
 
-POST - http://127.0.0.1:5000/scrap
-  Parametros:
+POST - http://127.0.0.1:5000/scrap  
+
+  Parametros:  
+  
   {
     "url": "https://www.jusbrasil.com.br/jurisprudencia/busca?q=alimentos", 
     "fields": ["body", "links", "header"], // Pode usar apenas um dos parametros
