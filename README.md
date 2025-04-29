@@ -18,4 +18,13 @@ POST - http://127.0.0.1:5000/scrap
     "depth": 1                                                            // profundidade da camada de links que serão raspados
 
 
+
+
   
+{
+"url": "https://www.jusbrasil.com.br/jurisprudencia/busca?q=alimentos",  
+"fields": ["body", "links", "header"],
+"follow_links": 3,
+"ignore_external": true,
+"depth": 1
+}      
